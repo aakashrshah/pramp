@@ -4,14 +4,17 @@ Given an array of integers arr where each element is at most k places away from 
 
 Analyze the time and space complexities of your solution.
 
-Example:
+
+
+**Example:**
 
 input:  arr = [1, 4, 5, 2, 3, 7, 8, 6, 10, 9], k = 2
 
 output: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 
-Constraints:
+
+**Constraints:**
 
 **[time limit] 5000ms**
 
