@@ -14,6 +14,18 @@ Implement an efficient solution and analyze its time and space complexities.
 
 **Examples:**
 
+```
+input:  slotsA = [[10, 50], [60, 120], [140, 210]]
+        slotsB = [[0, 15], [60, 70]]
+        dur = 8
+output: [60, 68]
+
+input:  slotsA = [[10, 50], [60, 120], [140, 210]]
+        slotsB = [[0, 15], [60, 70]]
+        dur = 12
+output: null # since there is no common slot whose duration is 12
+
+```
 **Constraints:**
 
 - **[time limit] 5000ms** 
