@@ -1,51 +1,31 @@
-**
+A map, hash, associative array or dictionary, 
 
-A map, hash, associative array or dictionary, **
-
-- is a key-value store.   
-
-- Elements within the data structure can be queried by the key  
-
+- is a key-value store.
+- Elements within the data structure can be queried by the key 
 - which will return the associated value.  
 
-Map interface is part of the Java Collections API  
+**Map interface** is part of the **Java Collections API**
 
-**
+Funtions:
 
-Funtions:**
-
-- data structure size and   
-
-- the ability to read,   
-
-- insert,and   
-
+- data structure size and 
+- the ability to read,  
+- insert,and  
 - delete key-value pairs.  
 
 **One property of a map is that the value of a key can only appear once: **
 
-- **Reinserting that ke**y will result in the original value being **overwritten**
+- **Reinserting that key** will result in the original value being **overwritten**
 - They key goes through the hash code method.   
-
 - The HashCode method returns an **int**.  
-
 - The **int** is the index in the hashmap or hashtable  
-
-- When you insert a value into the table for HashMap, the hashCode method is read, and because thevalue returned could be any valid value in the int range, it is then factored to a value between zeroand one less than the size of the table; that is, a valid index for the table.  
-
+- When you insert a value into the table for HashMap, the hashCode method is read, and because the value returned could be any valid value in the int range, it is then factored to a value between zero and one less than the size of the table; that is, a valid index for the table.  
 - So the hashtable just returns array[int]  
-
 - And it returns the value in the key  
 
-_********unequal**
+**unequal** objects can return the same **hashCode**** *That is the reason a collison handling must be done in these rare cases.*
 
- objects can return the same **
-
-hashCode****_
-
-That is the reason a collison handling must be done in these rare cases.
-
-
+-----------------
 
 A perfect hash function will have no collisions. What I mean by that: No two elements will be stored in the same cell. So a simple perfect hash function for a range of numbers from 1-10 is n itself. 
 
