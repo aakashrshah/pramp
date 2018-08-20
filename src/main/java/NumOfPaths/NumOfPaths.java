@@ -10,6 +10,7 @@ public class NumOfPaths {
 	  public int recursiveNumOfPathsToDes(int i, int j, int n) {
 		  //Constraints to stop recursion.
 
+//		  System.out.println("(" + i + "," + j + ")");
 		  //Reached Goal Constraint;
 		  if(i == n-1 && j == n-1) {
 			  return 1;
