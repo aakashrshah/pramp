@@ -2,40 +2,15 @@ package main.java.recursion.BinaryTreeHeight;
 
 public class BinaryTreeHeight {
 	
-	
-		public static class Node{
-			int value;
-			Node leftChild;
-			Node rightChild;
-			
-			public Node(int value){
-				this.value = value;
-				this.leftChild = null;
-				this.rightChild = null;
-			}
-		}
-		
-		public static void main(String args[]) {
-			
-			Node rootNode = getRandomTree();
-			int height = recursiveBinaryTreeHeight(rootNode);
-			System.out.println(height);
-		}
-		
-		private static Node getRandomTree() {
-			return null;
+		public int binaryTreeHeight(Node rootNode) {
+			return recursiveBinaryTreeHeight(rootNode);
 		}
 
-		public static int recursiveBinaryTreeHeight(Node rootNode) {
+		public int recursiveBinaryTreeHeight(Node rootNode) {
 			
 			if(rootNode == null) {
-				return 1;
+				return -1;
 			}
-			
-			return Math.max(recursiveBinaryTreeHeight(rootNode.leftChild),recursiveBinaryTreeHeight(rootNode.rightChild));
+			return Math.max(recursiveBinaryTreeHeight(rootNode.left),recursiveBinaryTreeHeight(rootNode.right)) + 1;
 		}
-
-		
-		
-		
 }
