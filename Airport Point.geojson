@@ -1,0 +1,5 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type":"Feature","properties":{"name":"La Guardia Airport","url":"http://www.panynj.gov/CommutingTravel/airports/html/laguardia.html"},"geometry":{"type":"Point","coordinates":[-73.87586383165385,40.77816708075414]}},{"type":"Feature","properties":{"name":"John F. Kennedy International Airport","url":"http://www.panynj.gov/CommutingTravel/airports/html/kennedy.html"},"geometry":{"type":"Point","coordinates":[-73.7712935119941,40.640120620653406]}}]
+}
